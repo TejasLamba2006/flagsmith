@@ -1,5 +1,37 @@
 # Changelog
 
+## [2.291.0](https://github.com/Flagsmith/flagsmith/compare/v2.290.0...v2.291.0) (2026-11-09)
+
+
+### Features
+
+* **docker:** Run experimentation on the Flagsmith Postgres database in docker compose ([#8884](https://github.com/Flagsmith/flagsmith/issues/8884)) ([1ec1049](https://github.com/Flagsmith/flagsmith/commit/1ec1049e6e40ab539242417c645b0ed5e2181f48))
+
+
+### Bug Fixes
+
+* **Audit Log:** DynamoDB Edge migration status fetch N+1 ([#8909](https://github.com/Flagsmith/flagsmith/issues/8909)) ([1dfc2b3](https://github.com/Flagsmith/flagsmith/commit/1dfc2b31471ff42b51df5718c5a122459b9a60b5))
+* **Diff display:** Segment rules diff showing up as [Object object] ([#8910](https://github.com/Flagsmith/flagsmith/issues/8910)) ([13539af](https://github.com/Flagsmith/flagsmith/commit/13539afcb99c20b4351e26f215d01b49f2a9be03))
+* Revoke DRF token after password change ([#8698](https://github.com/Flagsmith/flagsmith/issues/8698)) ([773f1c0](https://github.com/Flagsmith/flagsmith/commit/773f1c06ca20768351dac722724bf87fcbc8453e))
+* **Segments:** Incorrect audit logs when changing segment rules ([#8908](https://github.com/Flagsmith/flagsmith/issues/8908)) ([a002217](https://github.com/Flagsmith/flagsmith/commit/a002217f1e94487813a25e537e59bc8adec97d55))
+
+
+### Dependency Updates
+
+* bump Node and uv to distrust compromised eMudhra CAs ([#8898](https://github.com/Flagsmith/flagsmith/issues/8898)) ([4449ad4](https://github.com/Flagsmith/flagsmith/commit/4449ad4231392545807649e3b52a595999e0512d))
+
+
+### CI
+
+* **Renovate:** Upgrade to Renovate 44 and drop uv lock file maintenance ([#8912](https://github.com/Flagsmith/flagsmith/issues/8912)) ([b1ecf70](https://github.com/Flagsmith/flagsmith/commit/b1ecf7026d56ee92adb224309eb756795afd7e9f))
+
+
+### Docs
+
+* **experimentation:** document PostgreSQL warehouses ([#8873](https://github.com/Flagsmith/flagsmith/issues/8873)) ([a130da6](https://github.com/Flagsmith/flagsmith/commit/a130da6f417d657d784c36e03cbc245db9d2e187))
+* **experimentation:** group warehouse pages under Connect a Warehouse ([#8883](https://github.com/Flagsmith/flagsmith/issues/8883)) ([6102623](https://github.com/Flagsmith/flagsmith/commit/610262351b43323bb90f6562565a2656459c1779))
+* **experimentation:** Point the coding agent prompts at the Flagsmith database ([#8892](https://github.com/Flagsmith/flagsmith/issues/8892)) ([eeac04b](https://github.com/Flagsmith/flagsmith/commit/eeac04bd70b936314b6384cc91da442ce450140c))
+
 ## [2.290.0](https://github.com/Flagsmith/flagsmith/compare/v2.289.0...v2.290.0) (2026-11-05)
 
 
